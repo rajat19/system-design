@@ -1,0 +1,7 @@
+_site
+.jekyll-cache
+html-original
+.sass-cache
+Gemfile.lock
+.DS_Store
+.idea/
