@@ -92,16 +92,16 @@ layout: default
 
   <!-- Pagination links -->
   <div class="pagination">
-    {% if next_post.url %}
-      <a class="pagination-button pagination-active next" href="{{next_post.url}}">{{ site.data.settings.pagination.previous_page }}</a>
+    {% if previous_post.url %}
+      <a class="pagination-button pagination-active" href="{{ site.github.url }}{{previous_post.url}}">&laquo; {{previous_post.title}}</a>
     {% else %}
       <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
     {% endif %}
 
-    {% if previous_post.url %}
-      <a class="pagination-button pagination-active" href="{{previous_post.url}}">{{ site.data.settings.pagination.next_page }}</a>
-      {% else %}
-        <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+    {% if next_post.url %}
+      <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{next_post.url}}">{{next_post.title}} &raquo;</a>
+    {% else %}
+      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
     {% endif %}
   </div>
 
