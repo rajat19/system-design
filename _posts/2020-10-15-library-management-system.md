@@ -3,8 +3,8 @@ layout: post
 title: "Design a Library Management System"
 author: "Rajat Srivastava"
 categories: case_study
-tags: [sample]
-image: lms/page.jpg
+tags: [design]
+image: library/page.jpg
 ---
 
 A Library Management System is a software built to handle the primary housekeeping functions of a library. Libraries rely on library management systems to manage asset collections as well as relationships with their members. Library management systems help libraries keep track of the books and their checkouts, as well as members’ subscriptions and profiles.
@@ -49,7 +49,7 @@ Here are the top use cases of the Library Management System:
 - **Renew a book:** To reborrow an already checked-out book.
 - **Return a book:** To return a book to the library which was issued to a member.
 
-![Use Case]({{ site.github.url }}/assets/img/lms/use-case.png)
+![Use Case]({{ site.github.url }}/assets/img/library/use-case.png)
 
 ---
 ## Class Diagrams
@@ -68,21 +68,21 @@ Here are the main classes of our Library Management System:
 - **Rack:** Books will be placed on racks. Each rack will be identified by a rack number and will have a location identifier to describe the physical location of the rack in the library.
 - **Notification:** This class will take care of sending notifications to library members.
 
-![Class Diagram]({{ site.github.url }}/assets/img/lms/class-diagram.png)
+![Class Diagram]({{ site.github.url }}/assets/img/library/class-diagram.png)
 
-![UML Conventions]({{ site.github.url }}/assets/img/lms/uml.svg)
+![UML Conventions]({{ site.github.url }}/assets/img/library/uml.svg)
 
 ---
 ## Activity diagrams
 
 - **Check-out a book:** Any library member or librarian can perform this activity. Here are the set of steps to check-out a book:
-![Activity Checkout]({{ site.github.url }}/assets/img/lms/activity-checkout.svg)
+![Activity Checkout]({{ site.github.url }}/assets/img/library/activity-checkout.svg)
 
 - **Return a book:** Any library member or librarian can perform this activity. The system will collect fines from members if they return books after the due date. Here are the steps for returning a book:
-![Activity Return]({{ site.github.url }}/assets/img/lms/activity-return.png)
+![Activity Return]({{ site.github.url }}/assets/img/library/activity-return.png)
 
 - **Renew a book:** While renewing (re-issuing) a book, the system will check for fines and see if any other member has not reserved the same book, in that case the book item cannot be renewed. Here are the different steps for renewing a book:
-![Activity Renew]({{ site.github.url }}/assets/img/lms/activity-renew.svg)
+![Activity Renew]({{ site.github.url }}/assets/img/library/activity-renew.svg)
 
 ---
 ## Code
