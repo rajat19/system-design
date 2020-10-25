@@ -44,7 +44,7 @@ layout: default
     </div>
   </div>
 
-  <div class="related">
+  <!-- <div class="related">
     <h2>{{ site.data.settings.related_posts }}</h2>
     {% assign listed_posts_urls = page.url | split: ' ' %}
     <ul class="related-posts">
@@ -63,7 +63,7 @@ layout: default
                   <div class="related-title">
                     {{ mypost.title }}
                   </div>
-                  <!--<small>{{ mypost.date | date: "%B %-d, %Y" }}</small>-->
+                  <small>{{ mypost.date | date: "%B %-d, %Y" }}</small>
                 </a>
               </h3>
             </li>
@@ -72,10 +72,37 @@ layout: default
         {% endfor %}
       {% endfor %}
     </ul>
-  </div>
+  </div> -->
 
-  <!-- {% if site.data.settings.disqus.comments %}
-    {% include disqus.html %}
-  {% endif %} -->
+{% assign cat = page.categories[0] %}
+{% assign cat_list = site.categories[cat] %}
+{% for post in cat_list %}
+  {% if post.url == page.url %}
+  	{% assign pOffset = forloop.index0 | minus: 1 %}
+  	{% assign nOffset = pOffset | plus: 2 %}
+  	{% if forloop.first == false %}
+  	  {% assign next_post = cat_list[pOffset] %}
+  	{% endif %}
+  	{% if forloop.last == false %}
+  	  {% assign previous_post = cat_list[nOffset] %}
+  	{% endif %}
+  	{% break %}
+  {% endif %}
+{% endfor %}
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if next_post.url %}
+      <a class="pagination-button pagination-active next" href="{{next_post.url}}">{{ site.data.settings.pagination.previous_page }}</a>
+    {% else %}
+      <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+    {% endif %}
+
+    {% if previous_post.url %}
+      <a class="pagination-button pagination-active" href="{{previous_post.url}}">{{ site.data.settings.pagination.next_page }}</a>
+      {% else %}
+        <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+    {% endif %}
+  </div>
 
 </div>

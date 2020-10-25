@@ -9,13 +9,6 @@ image: parking/page.jpg
 
 A parking lot or car park is a dedicated cleared area that is intended for parking vehicles. In most countries where cars are a major mode of transportation, parking lots are a feature of every city and suburban area. Shopping malls, sports stadiums, megachurches, and similar venues often feature parking lots over large areas.
 
-<!-- 1. [System Requirements](#system-requirements)
-- [System Requirements](#system-requirements)
-- [Use Case Diagrams](#use-case-diagrams)
-- [Class Diagrams](#class-diagrams)
-- [Activity diagrams](#activity-diagrams)
-- [Code](#code) -->
-
 ---
 ## System Requirements
 We will focus on the following set of requirements while designing the parking lot:

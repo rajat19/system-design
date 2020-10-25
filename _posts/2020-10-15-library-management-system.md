@@ -11,12 +11,6 @@ A Library Management System is a software built to handle the primary housekeepi
 
 Library management systems also involve maintaining the database for entering new books and recording books that have been borrowed with their respective due dates.
 
-<!-- 1. [System Requirements](#system-requirements)
-2. [Use Case Diagram](#use-case-diagrams)
-3. [Class Diagrams](#class-diagrams)
-4. [Activity Diagrams](#activity-diagrams)
-5. [Code](#code) -->
-
 ---
 ## System Requirements
 We will focus on the following set of requirements while designing the Library Management System:
