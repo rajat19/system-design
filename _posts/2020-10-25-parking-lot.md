@@ -82,99 +82,28 @@ Following is the skeleton code for our parking lot system:
 
 - **Enums and Constants:** Here are the required enums, data types, and constants:
 
-{% codetab enums %}
-<div id="enumsJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/enums.java %}
-{% endhighlight %}
-</div>
-<div id="enumsPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/enums.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="enums" codeFolder="parking" %}
 
 - **Account, Admin, and ParkingAttendant:** These classes represent various people that interact with our system:
 
-{% codetab accounts %}
-<div id="accountsJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/accounts.java %}
-{% endhighlight %}
-</div>
-<div id="accountsPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/accounts.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="accounts" codeFolder="parking" %}
 
 - **ParkingSpot:** Here is the definition of ParkingSpot and all of its children classes:
 
-{% codetab spot %}
-<div id="spotJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/parkingSpot.java %}
-{% endhighlight %}
-</div>
-<div id="spotPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/parkingSpot.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="parkingSpot" codeFolder="parking" %}
 
 - **Vehicle:** Here is the definition for Vehicle and all of its child classes:
 
-{% codetab vehicle %}
-<div id="vehicleJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/vehicle.java %}
-{% endhighlight %}
-</div>
-<div id="vehiclePy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/vehicle.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="vehicle" codeFolder="parking" %}
 
 - **ParkingFloor:** This class encapsulates a parking floor:
 
-{% codetab floor %}
-<div id="floorJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/parkingFloor.java %}
-{% endhighlight %}
-</div>
-<div id="floorPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/parkingFloor.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="parkingFloor" codeFolder="parking" %}
 
 - **ParkingDisplayBoard:** This class encapsulates a parking display board:
 
-{% codetab display %}
-<div id="displayJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/parkingDisplay.java %}
-{% endhighlight %}
-</div>
-<div id="displayPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/parkingDisplay.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="parkingDisplay" codeFolder="parking" %}
 
 - **ParkingLot:** Our system will have only one object of this class. This can be enforced by using the [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern) pattern. In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to only one object.
 
-{% codetab lot %}
-<div id="lotJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/parkingLot.java %}
-{% endhighlight %}
-</div>
-
-<div id="lotPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/parkingLot.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="parkingLot" codeFolder="parking" %}

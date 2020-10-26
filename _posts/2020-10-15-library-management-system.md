@@ -5,7 +5,7 @@ author: "Rajat Srivastava"
 categories: case_study
 tags: [design]
 image: library/page.jpg
-code_folder: library
+codeFolder: library
 ---
 
 A Library Management System is a software built to handle the primary housekeeping functions of a library. Libraries rely on library management systems to manage asset collections as well as relationships with their members. Library management systems help libraries keep track of the books and their checkouts, as well as members’ subscriptions and profiles.
@@ -87,70 +87,20 @@ Note: This code only focuses on the design part of the use cases. Since you are 
 
 - **Enums and Constants:** Here are the required enums, data types, and constants:
 
-{% codetab enums %}
-<div id="enumsJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/enums.java %}
-{% endhighlight %}
-</div>
-<div id="enumsPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/enums.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="enums" codeFolder="library" %}
 
 - **Account, Member, and Librarian:** These classes represent various people that interact with our system:
 
-{% codetab accounts %}
-<div id="accountsJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/accounts.java %}
-{% endhighlight %}
-</div>
-<div id="accountsPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/accounts.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="accounts" codeFolder="library" %}
 
 - **BookReservation, BookLending, and Fine:** These classes represent a book reservation, lending, and fine collection, respectively.
 
-{% codetab reservation %}
-<div id="reservationJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/reservation.java %}
-{% endhighlight %}
-</div>
-<div id="reservationPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/reservation.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="reservation" codeFolder="library" %}
 
 - **BookItem:** Encapsulating a book item, this class will be responsible for processing the reservation, return, and renewal of a book item.
 
-{% codetab book %}
-<div id="bookJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/book.java %}
-{% endhighlight %}
-</div>
-<div id="bookPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/book.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="book" codeFolder="library" %}
 
 - **Search interface and Catalog:** The Catalog class will implement the Search interface to facilitate searching of books.
 
-{% codetab search %}
-<div id="searchJava" class="code-tabcontent">
-{% highlight java %}
-{% include {{page.code_folder}}/search.java %}
-{% endhighlight %}
-</div>
-<div id="searchPy" class="code-tabcontent">
-{% highlight py %}
-{% include {{page.code_folder}}/search.py %}
-{% endhighlight %}
-</div>
+{% include codetab.html btnClass="search" codeFolder="library" %}
