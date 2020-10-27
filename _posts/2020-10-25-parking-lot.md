@@ -68,7 +68,7 @@ Here are the main classes of our Parking Lot System:
 
 ![Class Diagram]({{ site.github.url }}/assets/img/parking/class-diagram.png)
 
-![UML Conventions]({{ site.github.url }}/assets/img/parking/uml.svg)
+![UML Conventions]({{ site.github.url }}/assets/img/uml.svg)
 
 ---
 ## Activity diagrams

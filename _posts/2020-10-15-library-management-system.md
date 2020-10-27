@@ -65,7 +65,7 @@ Here are the main classes of our Library Management System:
 
 ![Class Diagram]({{ site.github.url }}/assets/img/library/class-diagram.png)
 
-![UML Conventions]({{ site.github.url }}/assets/img/library/uml.svg)
+![UML Conventions]({{ site.github.url }}/assets/img/uml.svg)
 
 ---
 ## Activity diagrams
