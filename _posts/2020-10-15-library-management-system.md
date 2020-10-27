@@ -87,20 +87,20 @@ Note: This code only focuses on the design part of the use cases. Since you are 
 
 - **Enums and Constants:** Here are the required enums, data types, and constants:
 
-{% include codetab.html btnClass="enums" codeFolder="library" %}
+{% include codetab.html btnClass="enums" %}
 
 - **Account, Member, and Librarian:** These classes represent various people that interact with our system:
 
-{% include codetab.html btnClass="accounts" codeFolder="library" %}
+{% include codetab.html btnClass="accounts" %}
 
 - **BookReservation, BookLending, and Fine:** These classes represent a book reservation, lending, and fine collection, respectively.
 
-{% include codetab.html btnClass="reservation" codeFolder="library" %}
+{% include codetab.html btnClass="reservation" %}
 
 - **BookItem:** Encapsulating a book item, this class will be responsible for processing the reservation, return, and renewal of a book item.
 
-{% include codetab.html btnClass="book" codeFolder="library" %}
+{% include codetab.html btnClass="book" %}
 
 - **Search interface and Catalog:** The Catalog class will implement the Search interface to facilitate searching of books.
 
-{% include codetab.html btnClass="search" codeFolder="library" %}
+{% include codetab.html btnClass="search" %}

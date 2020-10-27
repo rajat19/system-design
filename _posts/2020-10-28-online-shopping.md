@@ -89,24 +89,24 @@ Here is the high-level definition for the classes described above.
 
 - **Enums and Constants:** Here are the required enums, data types, and constants:
 
-{% include codetab.html btnClass="enums" codeFolder="shopping" %}
+{% include codetab.html btnClass="enums" %}
 
 - **Account, Customer, Admin, and Guest:** These classes represent different people that interact with our system:
 
-{% include codetab.html btnClass="accounts" codeFolder="shopping" %}
+{% include codetab.html btnClass="accounts" %}
 
 - **ProductCategory, Product, and ProductReview:** Here are the classes related to a product:
 
-{% include codetab.html btnClass="product" codeFolder="shopping" %}
+{% include codetab.html btnClass="product" %}
 
 - **ShoppingCart, Item, Order, and OrderLog:** Users will add items to the shopping cart and place an order to buy all the items in the cart.
 
-{% include codetab.html btnClass="cart" codeFolder="shopping" %}
+{% include codetab.html btnClass="cart" %}
 
 - **Shipment, ShipmentLog, and Notification:** After successfully placing an order, a shipment record will be created:
 
-{% include codetab.html btnClass="shipment" codeFolder="shopping" %}
+{% include codetab.html btnClass="shipment" %}
 
 - **Search interface and Catalog:** Catalog will implement Search to facilitate searching of products.
 
-{% include codetab.html btnClass="search" codeFolder="shopping" %}
+{% include codetab.html btnClass="search" %}

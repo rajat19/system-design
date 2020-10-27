@@ -5,7 +5,7 @@ author: "Rajat Srivastava"
 categories: case_study
 tags: [design]
 image: parking/page.jpg
-code_folder: parking
+codeFolder: parking
 ---
 
 A parking lot or car park is a dedicated cleared area that is intended for parking vehicles. In most countries where cars are a major mode of transportation, parking lots are a feature of every city and suburban area. Shopping malls, sports stadiums, megachurches, and similar venues often feature parking lots over large areas.
@@ -82,28 +82,28 @@ Following is the skeleton code for our parking lot system:
 
 - **Enums and Constants:** Here are the required enums, data types, and constants:
 
-{% include codetab.html btnClass="enums" codeFolder="parking" %}
+{% include codetab.html btnClass="enums" %}
 
 - **Account, Admin, and ParkingAttendant:** These classes represent various people that interact with our system:
 
-{% include codetab.html btnClass="accounts" codeFolder="parking" %}
+{% include codetab.html btnClass="accounts" %}
 
 - **ParkingSpot:** Here is the definition of ParkingSpot and all of its children classes:
 
-{% include codetab.html btnClass="parkingSpot" codeFolder="parking" %}
+{% include codetab.html btnClass="parkingSpot" %}
 
 - **Vehicle:** Here is the definition for Vehicle and all of its child classes:
 
-{% include codetab.html btnClass="vehicle" codeFolder="parking" %}
+{% include codetab.html btnClass="vehicle" %}
 
 - **ParkingFloor:** This class encapsulates a parking floor:
 
-{% include codetab.html btnClass="parkingFloor" codeFolder="parking" %}
+{% include codetab.html btnClass="parkingFloor" %}
 
 - **ParkingDisplayBoard:** This class encapsulates a parking display board:
 
-{% include codetab.html btnClass="parkingDisplay" codeFolder="parking" %}
+{% include codetab.html btnClass="parkingDisplay" %}
 
 - **ParkingLot:** Our system will have only one object of this class. This can be enforced by using the [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern) pattern. In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to only one object.
 
-{% include codetab.html btnClass="parkingLot" codeFolder="parking" %}
+{% include codetab.html btnClass="parkingLot" %}
