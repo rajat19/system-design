@@ -2,10 +2,13 @@
 layout: page
 title: Case Studies
 ---
-{% for post in site.categories.case_study %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
+
+<table class="featured-table">
+  {% for post in site.categories.case_study %}
+  <tr class="featured-tr"><td class="featured-td">
+    <a href="{{ site.github.url }}{{ post.url }}">
       <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
-{% endfor %}
+    </a>
+  </td></tr>
+  {% endfor %}
+</table>
