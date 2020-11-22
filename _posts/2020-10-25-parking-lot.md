@@ -5,7 +5,7 @@ author: "Rajat Srivastava"
 categories: case_study
 tags: [design]
 image: parking/page.jpg
-codeFolder: parking
+folder: parking
 ---
 
 A parking lot or car park is a dedicated cleared area that is intended for parking vehicles. In most countries where cars are a major mode of transportation, parking lots are a feature of every city and suburban area. Shopping malls, sports stadiums, megachurches, and similar venues often feature parking lots over large areas.
@@ -46,7 +46,7 @@ Here are the top use cases for Parking Lot:
 - **Cash payment:** To pay the parking ticket through cash.
 - **Add/Modify parking rate:** To allow admin to add or modify the hourly parking rate.
 
-![Use Case]({{ site.github.url }}/assets/img/parking/use-case.svg)
+![Use Case]({{ site.github.url }}/assets/img/{{ page.folder }}/use-case.svg)
 
 ---
 ## Class Diagrams
@@ -66,7 +66,7 @@ Here are the main classes of our Parking Lot System:
 - **CustomerInfoPortal:** This class will encapsulate the info portal that customers use to pay for the parking ticket. Once paid, the info portal will update the ticket to keep track of the payment.
 - **ElectricPanel:** Customers will use the electric panels to pay and charge their electric vehicles.
 
-![Class Diagram]({{ site.github.url }}/assets/img/parking/class-diagram.png)
+![Class Diagram]({{ site.github.url }}/assets/img/{{ page.folder }}/class-diagram.png)
 
 ![UML Conventions]({{ site.github.url }}/assets/img/uml.svg)
 
@@ -74,7 +74,7 @@ Here are the main classes of our Parking Lot System:
 ## Activity diagrams
 
 - **Customer paying for parking ticket:** Any customer can perform this activity. Here are the set of steps:
-![Activity Checkout]({{ site.github.url }}/assets/img/parking/activity-paying.svg)
+![Activity Checkout]({{ site.github.url }}/assets/img/{{ page.folder }}/activity-paying.svg)
 
 ---
 ## Code
