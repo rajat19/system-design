@@ -5,7 +5,7 @@ author: "Rajat Srivastava"
 categories: case_study
 tags: [design]
 image: shopping/page.png
-codeFolder: shopping
+folder: shopping
 ---
 
 [Amazon](https://amazon.com) is the world’s largest online retailer. The company was originally a bookseller but has expanded to sell a wide variety of consumer goods and digital media. For the sake of this problem, we will focus on their online retail business where users can sell/buy their products.
@@ -43,7 +43,7 @@ Here are the top use cases of the Online Shopping System:
 6. Add a new product category.
 7. Send notifications to members with shipment updates.
 
-![Use Case]({{ site.github.url }}/assets/img/shopping/use-case.svg)
+![Use Case]({{ site.github.url }}/assets/img/{{ page.folder }}/use-case.svg)
 
 ---
 ## Class Diagrams
@@ -63,25 +63,25 @@ Here are the descriptions of the different classes of our Online Shopping System
 - **Notification:** This class will take care of sending notifications to customers.
 - **Payment:** This class will encapsulate the payment for an order. Members can pay through credit card or electronic bank transfer.
 
-![Class Diagram]({{ site.github.url }}/assets/img/shopping/class-diagram.png)
+![Class Diagram]({{ site.github.url }}/assets/img/{{ page.folder }}/class-diagram.png)
 
 ![UML Conventions]({{ site.github.url }}/assets/img/uml.svg)
 
 ---
 ## Activity Diagram
 Following is the activity diagram for a user performing online shopping:
-![Activity Shopping]({{ site.github.url }}/assets/img/shopping/activity-shopping.svg)
+![Activity Shopping]({{ site.github.url }}/assets/img/{{ page.folder }}/activity-shopping.svg)
 
 ---
 ## Sequence Diagram
 1. Here is the sequence diagram for searching from the catalog:
-![Sequence Searching]({{ site.github.url }}/assets/img/shopping/sequence-searching.svg)
+![Sequence Searching]({{ site.github.url }}/assets/img/{{ page.folder }}/sequence-searching.svg)
 
 2. Here is the sequence diagram for adding an item to the shopping cart:
-![Sequence Adding]({{ site.github.url }}/assets/img/shopping/sequence-adding-items.svg)
+![Sequence Adding]({{ site.github.url }}/assets/img/{{ page.folder }}/sequence-adding-items.svg)
 
 3. Here is the sequence diagram for checking out to place an order:
-![Sequence Checkout]({{ site.github.url }}/assets/img/shopping/sequence-check-out.svg)
+![Sequence Checkout]({{ site.github.url }}/assets/img/{{ page.folder }}/sequence-check-out.svg)
 
 ---
 ## Code

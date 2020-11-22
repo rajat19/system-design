@@ -5,7 +5,7 @@ author: "Rajat Srivastava"
 categories: case_study
 tags: [design]
 image: stack-overflow/page.png
-codeFolder: stack-overflow
+folder: stack-overflow
 ---
 
 Stack Overflow is one of the largest online communities for developers to learn and share their knowledge. The website provides a platform for its users to ask and answer questions, and through membership and active participation, to vote questions and answers up or down. Users can edit questions and answers in a fashion similar to a [wiki](https://en.wikipedia.org/wiki/Wiki).
@@ -47,7 +47,7 @@ Here are the top use cases for Stack Overflow:
 4. Add comments to questions or answers.
 5. Moderators can close, delete, and un-delete any question.
 
-![Use Case]({{ site.github.url }}/assets/img/stack-overflow/use-case.svg)
+![Use Case]({{ site.github.url }}/assets/img/{{ page.folder }}/use-case.svg)
 
 ---
 ## Class Diagrams
@@ -63,19 +63,19 @@ Here are the main classes of Stack Overflow System:
 - **Account:** We will have four types of accounts in the system, guest, member, admin, and moderator. Guests can search and view questions. Members can ask questions and earn reputation by answering questions and from bounties.
 - **Notification:** This class will be responsible for sending notifications to members and assigning badges to members based on their reputations.
 
-![Class Diagram]({{ site.github.url }}/assets/img/stack-overflow/class-diagram.svg)
+![Class Diagram]({{ site.github.url }}/assets/img/{{ page.folder }}/class-diagram.svg)
 
 ![UML Conventions]({{ site.github.url }}/assets/img/uml.svg)
 
 ---
 ## Activity Diagram
 **Post a new question:** Any member or moderator can perform this activity. Here are the steps to post a question:
-![Activity post]({{ site.github.url }}/assets/img/stack-overflow/activity-post.svg)
+![Activity post]({{ site.github.url }}/assets/img/{{ page.folder }}/activity-post.svg)
 
 ---
 ## Sequence Diagram
 Following is the sequence diagram for creating a new question:
-![Sequence Create Question]({{ site.github.url }}/assets/img/stack-overflow/sequence-create-question.svg)
+![Sequence Create Question]({{ site.github.url }}/assets/img/{{ page.folder }}/sequence-create-question.svg)
 
 ---
 ## Code
