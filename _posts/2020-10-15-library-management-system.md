@@ -2,7 +2,7 @@
 layout: post
 title: "Design a Library Management System"
 author: "Rajat Srivastava"
-categories: case_study
+categories: case-studies
 tags: [design]
 image: library/page.jpg
 folder: library

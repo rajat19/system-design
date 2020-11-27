@@ -2,7 +2,7 @@
 layout: post
 title: "Activity Diagrams"
 author: "Rajat Srivastava"
-categories: ood
+categories: object-oriented-design
 tags: [design]
 folder: ood
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Design Amazon - Online Shopping System"
 author: "Rajat Srivastava"
-categories: case_study
+categories: case-studies
 tags: [design]
 image: shopping/page.png
 folder: shopping

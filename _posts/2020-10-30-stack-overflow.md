@@ -2,7 +2,7 @@
 layout: post
 title: "Design Stack Overflow"
 author: "Rajat Srivastava"
-categories: case_study
+categories: case-studies
 tags: [design]
 image: stack-overflow/page.png
 folder: stack-overflow
