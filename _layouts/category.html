@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="page-title">
+  <h1>
+    {{ page.title }}
+  </h1>
+</div>
+
+<article>
+  <table class="featured-table">
+    {% for post in site.categories[page.category-name] reversed %}
+    <tr class="featured-tr">
+      <td class="featured-td">
+        <a href="{{ site.github.url }}{{ post.url }}">
+          <h2><span>{{ post.title }}</span></h2>
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</article>

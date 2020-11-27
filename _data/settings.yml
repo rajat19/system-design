@@ -1,8 +1,8 @@
 menu:
-- {name: 'Case Studies', folder: 'pages', file: 'case-studies.html'}
-- {name: 'Object Oriented Design', folder: 'pages', file: 'ood.html'}
-- {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+- {name: 'Case Studies', folder: 'category', file: 'case-studies.html'}
+- {name: 'Object Oriented Design', folder: 'category', file: 'ood.html'}
+# - {name: 'About', folder: 'pages', file: 'about.html'}
+# - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:

@@ -4,41 +4,18 @@ title: Home
 ---
 
 <table class="featured-table">
-{% for post in paginator.posts %}
-  <tr class="featured-tr"><td class="featured-td">
-    <a href="{{ site.github.url }}{{ post.url }}">
-      <!-- <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}> -->
-      <!-- <div class="featured-posts"> -->
-        <h2><span>{{ post.title }}</span></h2>
-      <!-- </div> -->
-    </a>
-  </td>
+
+{% assign sortedCategories = site.categories %}
+{% for category in sortedCategories %}
+  <tr class="featured-tr">
+    <td class="featured-td">
+      {% assign category_name = category | first %}
+      {% assign words = category_name | split: "-" %}
+      <a href="{{ site.github.url }}/category/{{ category_name }}.html">
+          {% capture titlecase %}{% for word in words %}{{ word | capitalize }} {% endfor%}{% endcapture %}
+          <h2><span>{{ titlecase }}</span></h2>
+      </a>
+    </td>
   </tr>
-
-
-<!-- <article>
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
-    <div class="featured-posts">
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
-</article> -->
-
 {% endfor %}
 </table>
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
-</div>
