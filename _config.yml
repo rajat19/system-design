@@ -14,8 +14,8 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Grokking System Design"
-description:	       "free grokking system design documentation"
+title:		           "System Design"
+description:	       "free system design documentation"
 author:              "Rajat Srivastava"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
