@@ -20,4 +20,15 @@ author:              "Rajat Srivastava"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 feed:
- path: rss-feed.xml
+  path: rss-feed.xml
+
+collections:
+  category:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
