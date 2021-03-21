@@ -2,7 +2,7 @@
 layout: post
 title: "Class Diagram"
 author: "Rajat Srivastava"
-categories: object-oriented-design
+categories: design-concepts
 tags: [design]
 folder: ood
 ---

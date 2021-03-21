@@ -2,7 +2,7 @@
 layout: post
 title: "Object Oriented Analysis and Design"
 author: "Rajat Srivastava"
-categories: object-oriented-design
+categories: design-concepts
 tags: [design]
 folder: ood
 ---

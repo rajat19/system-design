@@ -2,7 +2,7 @@
 layout: post
 title: "Sequence diagram"
 author: "Rajat Srivastava"
-categories: object-oriented-design
+categories: design-concepts
 tags: [design]
 folder: ood
 ---

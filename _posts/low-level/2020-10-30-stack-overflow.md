@@ -2,7 +2,7 @@
 layout: post
 title: "Design Stack Overflow"
 author: "Rajat Srivastava"
-categories: case-studies
+categories: low-level-designs
 tags: [design]
 image: stack-overflow/page.png
 folder: stack-overflow

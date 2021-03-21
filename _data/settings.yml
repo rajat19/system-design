@@ -1,6 +1,7 @@
 menu:
-- {name: 'Case Studies', folder: 'category', file: 'case-studies.html'}
-- {name: 'Object Oriented Design', folder: 'category', file: 'object-oriented-design.html'}
+- {name: 'Complete Designs', folder: 'category', file: 'complete-designs.html'}
+- {name: 'Low Level Designs', folder: 'category', file: 'low-level-designs.html'}
+- {name: 'Design Concepts', folder: 'category', file: 'design-concepts.html'}
 # - {name: 'About', folder: 'pages', file: 'about.html'}
 # - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 

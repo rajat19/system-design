@@ -2,7 +2,7 @@
 layout: post
 title: "Design a Movie Ticket Booking System"
 author: "Rajat Srivastava"
-categories: case-studies
+categories: low-level-designs
 tags: [design]
 image: movie-booking/page.jpeg
 folder: movie-booking
@@ -111,7 +111,7 @@ Here is the high-level definition for the classes described above.
 We can use transactions in SQL databases to avoid any clashes. For example, if we are using SQL server we can utilize Transaction Isolation Levels to lock the rows before we update them. Note: within a transaction, if we read rows we get a write-lock on them so that they can’t be updated by anyone else. Here is the sample code:
 
 {% highlight sql %}
-{% include {{ page.folder }}/concurrency.sql %}
+{% include code/{{ page.folder }}/concurrency.sql %}
 {% endhighlight %}
 
 ‘Serializable’ is the highest isolation level and guarantees safety from [Dirty Reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Dirty_reads), [Nonrepeatable](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Non-repeatable_reads), and [Phantoms reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Phantom_reads).
@@ -120,5 +120,5 @@ Once the above database transaction is successful, we can safely assume that the
 
 Here is the sample Java code:
 {% highlight java %}
-{% include {{ page.folder }}/concurrency.java %}
+{% include code/{{ page.folder }}/concurrency.java %}
 {% endhighlight %}
