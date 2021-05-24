@@ -2,7 +2,7 @@
 layout: post
 title: "Design Amazon - Online Shopping System"
 author: "Rajat Srivastava"
-categories: low-level-designs
+categories: system-designs
 tags: [design]
 image: shopping/page.png
 folder: shopping

@@ -111,3 +111,20 @@ article img {
 article strong {
   font-family: sans-serif !important;
 }
+
+.estimation-table {
+  width: fit-content !important;
+}
+
+.note {
+  display: block;
+  text-align: center;
+  background-color:yellow; 
+  font-style: italic;
+  padding: 3px;
+}
+
+.estp {
+  text-align: center;
+  color: gray;
+}

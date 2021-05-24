@@ -2,7 +2,7 @@
 layout: post
 title: "Design a Parking Lot"
 author: "Rajat Srivastava"
-categories: low-level-designs
+categories: system-designs
 tags: [design]
 image: parking/page.jpg
 folder: parking

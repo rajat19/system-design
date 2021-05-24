@@ -2,7 +2,7 @@
 layout: post
 title: "Design a Library Management System"
 author: "Rajat Srivastava"
-categories: low-level-designs
+categories: system-designs
 tags: [design]
 image: library/page.jpg
 folder: library

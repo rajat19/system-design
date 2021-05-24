@@ -2,7 +2,7 @@
 layout: post
 title: "Design a Movie Ticket Booking System"
 author: "Rajat Srivastava"
-categories: low-level-designs
+categories: system-designs
 tags: [design]
 image: movie-booking/page.jpeg
 folder: movie-booking

@@ -1,6 +1,6 @@
 menu:
-- {name: 'Complete Designs', folder: 'category', file: 'complete-designs.html'}
-- {name: 'Low Level Designs', folder: 'category', file: 'low-level-designs.html'}
+- {name: 'Step By Step', folder: 'pages', file: 'guide.html'}
+- {name: 'System Designs', folder: 'category', file: 'system-designs.html'}
 - {name: 'Design Concepts', folder: 'category', file: 'design-concepts.html'}
 # - {name: 'About', folder: 'pages', file: 'about.html'}
 # - {name: 'Contact', folder: 'pages', file: 'contact.html'}
